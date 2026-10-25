@@ -1,0 +1,13 @@
+// General-purpose example: arithmetic, assignments, loops, and scoping.
+// This input is a custom language program, not C or LLVM IR.
+let total = 0;
+let step = 3;
+repeat(4) {
+    set total = total + step;
+    // Inner variables do not escape the repeat block.
+    let current = total;
+    print(current);
+}
+// The expression below prints a value without modifying total.
+print(total + 2 * 5);
+print(total);

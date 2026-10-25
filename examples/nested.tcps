@@ -1,0 +1,9 @@
+// Nested block scopes and repeat loops (general compiler regression test).
+let sum = 0;
+repeat(2) {
+    let increment = 3;
+    repeat(increment) {
+        set sum = sum + 1;
+    }
+}
+print(sum);

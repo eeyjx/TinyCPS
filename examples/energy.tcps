@@ -1,0 +1,9 @@
+// Legacy illustrative application; no physical energy is measured.
+// Educational energy accumulator; arbitrary units, not actual energy data.
+let energy_per_cycle = 7;
+let accumulated_energy = 0;
+repeat(4) {
+    set accumulated_energy = accumulated_energy + energy_per_cycle;
+    print(accumulated_energy);
+}
+print(accumulated_energy + 2 * 3);

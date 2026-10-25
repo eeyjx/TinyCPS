@@ -1,0 +1,23 @@
+Program
+  Let(total)
+    Number(0)
+  Let(step)
+    Number(3)
+  Repeat
+    Number(4)
+    Set(total)
+      Binary(+)
+        Name(total)
+        Name(step)
+    Let(current)
+      Name(total)
+    Print
+      Name(current)
+  Print
+    Binary(+)
+      Name(total)
+      Binary(*)
+        Number(2)
+        Number(5)
+  Print
+    Name(total)

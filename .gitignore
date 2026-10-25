@@ -1,0 +1,13 @@
+/build/
+/build-*/
+/.cache/
+*.o
+*.exe
+*.out
+/general
+/general_c
+/general_llvm
+__pycache__/
+/general.c
+/general.ll
+/general.o

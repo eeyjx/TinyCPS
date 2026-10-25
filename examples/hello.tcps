@@ -1,0 +1,4 @@
+// A hello-world-sized compiler example
+let x = 10;
+let y = 20;
+print(x + y);
